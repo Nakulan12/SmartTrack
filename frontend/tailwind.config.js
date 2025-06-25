@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 
 export default {
 	darkMode: ["class"],
@@ -93,3 +94,16 @@ export default {
 	},
 	plugins: [require("tailwindcss-animate")],
 };
+=======
+/** @type {import('tailwindcss').Config} */
+module.exports = {
+  content: [
+    "./index.html",
+    "./src/**/*.{js,jsx}"
+  ],
+  theme: {
+    extend: {},
+  },
+  plugins: [],
+}
+>>>>>>> b07dca1600db0186c8a56af580687994b23b56e8

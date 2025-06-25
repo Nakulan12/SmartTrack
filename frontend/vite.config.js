@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 
 import { defineConfig } from "vite";
 import react from "@vitejs/plugin-react-swc";
@@ -21,3 +22,12 @@ export default defineConfig(({ mode }) => ({
     },
   },
 }));
+=======
+import { defineConfig } from 'vite'
+import react from '@vitejs/plugin-react'
+
+// https://vite.dev/config/
+export default defineConfig({
+  plugins: [react()],
+})
+>>>>>>> b07dca1600db0186c8a56af580687994b23b56e8
